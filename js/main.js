@@ -3,8 +3,6 @@ jQuery(document).ready(function($){
 	var transitionsSupported = ( $('.csstransitions').length > 0 );
 	//if browser does not support transitions - use a different event to trigger them
 	if( !transitionsSupported ) transitionEnd = 'noTransition';
-	
-	//should add a loding while the events are organized 
 
 	function SchedulePlan( element ) {
 		this.element = element;
