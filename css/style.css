@@ -338,6 +338,15 @@ Main Components
   background: yellowgreen;
 }
 
+.cd-schedule .single-event[data-event="event-6"],
+.cd-schedule [data-event="event-6"] .header-bg {
+  background: black;
+}
+
+.cd-schedule .single-event[data-event="event-6"]:hover {
+  background: grey;
+}
+
 .cd-schedule .event-modal {
   position: fixed;
   z-index: 3;
